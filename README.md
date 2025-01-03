@@ -40,7 +40,7 @@ Welcome to the Fico Bank Mobile Banking App repository! This project aims to pro
 #### 1. npm install
 #### 2. Set up environment variables:
    'Create a .env file in the root directory and add the following variables:
-   MONGO_URI=your_mongodb_uri
+   MONGO_URI=your_mongodb_uri         
    JWT_SECRET=your_jwt_secret
    AWS_ACCESS_KEY_ID=your_aws_access_key_id
    AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
