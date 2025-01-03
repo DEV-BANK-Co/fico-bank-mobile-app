@@ -35,3 +35,51 @@ Welcome to the Fico Bank Mobile Banking App repository! This project aims to pro
    ```sh
    git clone https://github.com/B8nk1028/fico-bank-mobile-app.git
    cd fico-bank-mobile-app
+====================================================================
+
+#### 1. npm install
+#### 2. Set up environment variables:
+   'Create a .env file in the root directory and add the following variables:
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   AWS_ACCESS_KEY_ID=your_aws_access_key_id
+   AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+#### 3. Start the development server:
+   npm run dev
+#### 4. Run the mobile app:
+       -  for IOS:
+      npx react-native run-ios
+       - for Android
+      npx react-native run-android
+
+## 📋 Project Structure
+
+### src/: Contains the source code for the mobile app.
+      components/: Reusable components used across the app.
+      screens/: Different screens of the app.
+      services/: API services and utility functions.
+      navigation/: Navigation setup for the app.
+### backend/: Contains the backend code.
+      models/: Database models.
+      routes/: API routes.
+      controllers/: Route handlers and business logic.
+### config/: Configuration files.
+### test/: Test files and configurations.
+
+
+## 🧪 Testing
+   To run the tests, use the following command:
+
+      npm test
+
+      
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## 📫 Contact
+For any inquiries or support, please reach out to us:
+
+### Email: support@ficobank.com
+### Twitter: @FicoBank
+### LinkedIn: Fico Bank
+# Thank you for using the Fico Bank Mobile Banking App! We hope you have a great experience.
